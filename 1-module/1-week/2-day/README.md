@@ -17,8 +17,7 @@
 2. Keep microphone muted at all times, unless called on
 3. Be Present, both during lectures and pairing. Dont be playing games on your computer, checking social media, or messing with your phone during class time.
 4. Make sure your name in Zoom matches your preferred name / pronouns.
-5. Be Present, both during lectures and pairing. Dont be playing games on your computer, checking social media, or messing with your phone during class time.
-6. Participate
+5. Participate
     - Raise your hand to answer questions posed by the lecturer
     - Ask questions if you are confused or want clarification by using the zoom raise hand reaction.
     - Don't be afraid of saying the wrong thing
