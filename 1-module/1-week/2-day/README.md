@@ -26,7 +26,7 @@
 
 ## Lecture Notes Repo
 
-[repo-link](https://github.com/WJVincent/Feb-2024)
+[repo-link](https://github.com/WJVincent/May-2024)
 
 I will be posting my lecture notes and additional resources into this repository each day.
 
@@ -379,8 +379,8 @@ for (let i = 0; i <= 5; i++) {
     console.log(i); // 0 1 2 3 4 5
 }
 
-let word = 'hello world'
-for(let i = 0; i < word.length; i++){
+let word = 'hello world';
+for (let i = 0; i < word.length; i++) {
     console.log(i);
     console.log(word[i]);
 }
