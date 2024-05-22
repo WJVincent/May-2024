@@ -25,7 +25,7 @@
 - meet and greet - get to know each other
 - decide whose gonna drive and navigate first
 - driver is going to clone repo
-- switch roles every 15 minutes
+- switch roles every 15 minutes (if in the middle of a problem, no longer than 25m)
 - stick to this pattern no matter what
 - COMMUNICATE WITH EMPATHY
     - avoid using accusatory terms like "you did this",
@@ -71,9 +71,9 @@ Demo and Code-Along for getting a project onto github and ready for pairing
 - one from scratch
 - one from project repo
 
-## Callbacks Project Long Practice (Paired, For most of Day)
+##  Advanced Arrays Long Practice (Paired, For most of Day)
 
-If you finish this, feel free to go back to work on the POJO Basics Long Practice / Advanced Arrays Long Practice.  
+If you finish this, feel free to go back to work on the POJO Basics Long Practice / Callbacks Long Practice.  
 
 ## Collaborative Problem Solving (1hr before end of day)
 
