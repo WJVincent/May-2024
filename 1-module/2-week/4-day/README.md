@@ -70,6 +70,7 @@ makeSounds('woof');
 
 ```js
 let hungry = false;
+
 function sayHungry() {
     let hungry = true;
     if (hungry) {
@@ -194,6 +195,7 @@ const counter = () => {
 
     return innerFunc;
 };
+
 
 let count1 = counter();
 console.log(count1); // [Function: InnerFunc]
