@@ -4,6 +4,7 @@
 -   Function Hoisting
 -   Primitive Values
 -   Truthy/Falsy
+-   Ternary Expressions
 -   Recursion
 
 ## Immediately Invoked Function Expressions
@@ -54,6 +55,14 @@ const myExpressionFunc = function () {
     -   -0
     -   0m
     -   ''
+
+## [Ternary Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator)
+
+ternary meaning three
+
+```
+condition ? trueExpression : falseExpression;
+```
 
 ## Recursion Practice Time
 
