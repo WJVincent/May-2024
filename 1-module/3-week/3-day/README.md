@@ -4,6 +4,7 @@
 -   Function Hoisting
 -   Primitive Values
 -   Truthy/Falsy
+-   Boolean Short Circuiting
 -   Ternary Expressions
 -   Recursion
 
