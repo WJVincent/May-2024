@@ -2,7 +2,7 @@
 
 - The event loop
 - Async
-- setTimout / setInterval
+- setTimeout / setInterval
 - Readline && userInput
 
 ## The Event Loop
