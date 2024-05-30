@@ -74,11 +74,11 @@ const interval = setInterval(() => {
 console.log(interval);
 ```
 
-## Timeout Project p1 (Paired, 40m)
+## Timeout Project p1 (Solo, 30m)
 
 ## Timeout Project p1 Walkthrough
 
-## Timeout Project p2 (Paired, 40m)
+## Timeout Project p2 (Solo, 30m)
 
 ## Timeout Project p2 Walkthrough
 
