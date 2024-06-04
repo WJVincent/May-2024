@@ -3,6 +3,10 @@
 - CommonJS Modules
 - OOP
 
+## Cameras On
+
+A reminder that having your camera on during lectures and when pairing is not optional!
+
 ## Questions Reminder
 
 A reminder that we have switched to the discord question channel to improve our question asking abilities.
