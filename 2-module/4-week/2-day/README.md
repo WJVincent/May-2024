@@ -3,6 +3,12 @@
 - CommonJS Modules
 - OOP
 
+## Questions Reminder
+
+A reminder that we have switched to the discord question channel to improve our question asking abilities.
+
+If you don't know how to formulate a good question, we can help you to do so, just ask! :)
+
 ## CommonJS Modules
 
 Overview
