@@ -231,4 +231,4 @@ class Cat extends Animal {
 
 - Friendly and Evil Dragons (do this first)
 - Manager and Employee Salaries (do this only after you are confident on the first practice)
-- Adventure Project (avoid this practice unless feely extremely confident, there are a lot of issues with the instructions and practice as a whole)
+- Adventure Project (avoid this practice unless feeling extremely confident, there are a lot of issues with the instructions and practice as a whole)
