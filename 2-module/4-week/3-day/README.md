@@ -86,9 +86,7 @@ play.apply(cali, ['ball']);
 
 ## Bind, Call, Apply Practices (SOLO, 50m)
 
-- Bind Quiz
 - Practice: Bind
-- Call and Apply Quiz
 - Practice: Call and Apply
 
 ## Bind, Call, Apply Practice Walkthrough
