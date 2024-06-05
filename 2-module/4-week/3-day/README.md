@@ -42,7 +42,6 @@ setTimeout(() => cali.bark(), 2000);
 
 ## Context Practices (SOLO, 20m)
 
-- Context in Regular Functions Quiz
 - Exercise: Context in Regular Functions
 
 ## Exercise: Context in Regular Functions Walkthrough
