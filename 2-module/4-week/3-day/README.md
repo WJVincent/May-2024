@@ -128,7 +128,6 @@ cali.arrowDelayedBark(); //Dog {name: "Cali"} Context -> lexical binding
 
 ## Arrow Functions Practices (SOLO, 25m)
 
-- Arrow Functions Review and Context Quiz
 - Practice: Arrow Functions and Context
 
 ## Practice: Arrow Functions and Context Walkthrough
