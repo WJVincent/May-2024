@@ -22,6 +22,7 @@ Focus on these most common Error Types
 - SyntaxError
 - ReferenceError
 - TypeError
+- RangeError
 
 ## Error Handling
 
@@ -129,20 +130,14 @@ Testing Pyramid
 
 ## Error Handling Practices (SOLO, 30m)
 
-- Error Types Quiz
-- Error Handling Quiz
 - Practice: Error Handling
 
 ## Practice: Error Handling Walkthrough
 
-## Testing Practices (SOLO, 1h)
+## Testing Practices (SOLO, 45m)
 
 Feel free to use the [TDD-Cheatsheet.md](./TDD-cheatsheet.md) file as a helper when working on this practice.
 
-- Testing Pyramid Quiz
-- TDD Quiz
-- Mocha and Chai Quiz
-- Common Test Cases Quiz
 - Practice: Unit Test w/Mocha and Chai
 
 ## Practice: Unit Test w/Mocha and Chai Walkthrough
