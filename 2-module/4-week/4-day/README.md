@@ -8,7 +8,7 @@
 
 ## JS Error Types
 
-- `EvalError`: represents an error that originates from the global eval() function 
+- `EvalError`: represents an error that originates from the global eval() function
 - `RangeError`: representing an error for when a numeric variable or parameter is outside of its valid range.
 - `ReferenceError`: represents an error thrown when an invalid reference is made.
 - `SyntaxError`: represents an error in the syntax of the code.
@@ -35,72 +35,76 @@ console.log(add("banana", "orange"));
 // try-catch error handling
 try {
   //code to attempt to run
-} catch(errorObj) {
+} catch (errorObj) {
   //code to execute if the try block fails
 }
 
 const add = (num1, num2) => {
   try {
-    if(typeof num1 === 'number' && typeof num2 === 'number'){
+    if (typeof num1 === "number" && typeof num2 === "number") {
       return num1 + num2;
     } else {
-      throw new TypeError('Type Error: Invalid Inputs')
+      throw new TypeError("Type Error: Invalid Inputs");
     }
   } catch (e) {
     console.error(e.message);
   }
 };
 add("banana", "orange");
-console.log(add(1,4))
+console.log(add(1, 4));
 ```
 
 ```js
 // throwing an error
 function safeDivide(a, b) {
-    if (b === 0) {
-      throw new Error("cannot divide by zero");
-      // throw new RangeError("cannot divide by zero");
-    } else {
-      return a / b;
-    }
+  if (b === 0) {
+    throw new Error("cannot divide by zero");
+    // throw new RangeError("cannot divide by zero");
+  } else {
+    return a / b;
   }
-  
-  try {
-    console.log(safeDivide(30, 5)); // prints 6
-  } catch (error) {
-    console.error(error.name + ": " + error.message);
-  }
+}
 
-  try {
-    console.log(safeDivide(30, 0));
-  } catch (error) {
-    console.error(error.name + ": " + error.message); // prints error message
-  }
-  
-  console.log("hello"); // prints hello
+try {
+  console.log(safeDivide(30, 5)); // prints 6
+} catch (error) {
+  console.error(error.name + ": " + error.message);
+}
+
+try {
+  console.log(safeDivide(30, 0));
+} catch (error) {
+  console.error(error.name + ": " + error.message); // prints error message
+}
+
+console.log("hello"); // prints hello
 ```
-
-- console.log writes to stdout
-- console.error writes to stderr
-
-This mostly doesn't matter for your use case, and in node both are written to your terminal the same way, however they could be piped differently in a project where error logs could be collected differently than standard logs.
-
-Most of the time SyntaxErrors can't be caught in the same way as other errors, the reason for this is that the syntax error causes the JS interpreter to fail, rather than a function to fail. So it fails at a level above the control of any logic you have written.
 
 ```js
 //finally - it always runs regardless of if the try or catch block ran.
 
 function trySafeDivide(n) {
-    try {
-        console.log(safeDivide(30, n));
-    } catch (error) {
-        console.error(error.name + ": " + error.message); // Error: cannot divide by zero
-        return;
-    } finally {
-        console.log("This will always run");
-    }
+  try {
+    console.log(safeDivide(30, n));
+  } catch (error) {
+    console.error(error.name + ": " + error.message); // Error: cannot divide by zero
+    return;
+  } finally {
+    console.log("This will always run");
+  }
 }
 ```
+
+### console.log vs console.error
+
+- console.log writes to stdout
+- console.error writes to stderr
+
+This mostly doesn't matter for your use case, both are written to your terminal basically the same way, however they could be piped differently in a project where error logs could be collected differently than standard logs.
+
+### syntax errors aren't "catch-able"
+
+Most of the time SyntaxErrors can't be caught in the same way as other errors, the reason for this is that the syntax error causes the JS interpreter to fail, rather than a function to fail. So it fails at a level above the control of any logic you have written.
 
 ## Testing Pyramid
 
