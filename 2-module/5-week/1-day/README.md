@@ -66,25 +66,25 @@ function printPairSums(n) {
 Ignore Coefficients
 
 ```
-  5n => ?? 
-  2n^2 => ?? 
-  5 => ?? 
+  5n => n
+  2n^2 => n^2
+  5 => 1 
 ```
 
 Ignore Insignificant Factors
 
 ```
- n^2 + n => ??
- 5 + n => ?? 
+ n^2 + n => n^2
+ 5 + n => n 
 ```
 
 Lets Practice!
 ```
-5n^2 + 2n + 5 => ?? 
+5n^2 + 2n + 5 => n^2 + n + 1 => n^2
 
-n * n + n => ?? 
+n * n + n => n^2 + n => n^2
 
-2 + 3 => ?? 
+2 + 3 => 1 + 1 => 1
 ```
 
 
@@ -92,12 +92,13 @@ n * n + n => ??
 //time complexity 
 
 function printTripleSums(n) { 
+  
+  // n*n*n => n^3
+  for (let i = 0 ; i < n ; i++) { //n
 
-  for (let i = 0 ; i < n ; i++) { 
-
-    for (let j = 0 ; j < n ; j++) { 
+    for (let j = 0 ; j < n ; j++) { //n
  
-      for (let k = 0 ; k < n ; k++) {
+      for (let k = 0 ; k < n ; k++) {//n
         console.log(`${i} + ${j} + ${k} = ${i + j + k}`);
       }
     }
@@ -108,35 +109,40 @@ function printLettersNTimes(n) {
 
   const letters = "abcdefghijklmnopqrstuvwxyz";
 
-  for (let i = 0 ; i < letters.length ; i++) {
+  //1 * n => n
+  for (let i = 0 ; i < letters.length ; i++) { //1
 
-    for (let j = 0 ; j < n ; j++) {
+    for (let j = 0 ; j < n ; j++) { // n
       console.log(letters[i]);
     }
   }
 }
 
 function printNumbersTwice(n) {
+  
 
-  for (let i = 0 ; i < n ; i++) {
+  // n + n => n
+  for (let i = 0 ; i < n ; i++) { // n
     console.log(i);
   }
 
-  for (let j = 0 ; j < n ; j++) { 
+  for (let j = 0 ; j < n ; j++) { // n
     console.log(j);
   }
 }
 
 function printPairSumsThenPrintNums(n) {
 
-  for (let i = 0 ; i < n ; i++) { 
 
-    for (let j = 0 ; j < n ; j++) {
+  // n^2 + n => n^2
+  for (let i = 0 ; i < n ; i++) { // n
+
+    for (let j = 0 ; j < n ; j++) { // n
       console.log(`${i} + ${j} = ${i + j}`);
     }
   }
 
-  for (let k = 0 ; k < n ; k++) { 
+  for (let k = 0 ; k < n ; k++) { // n
     console.log(k);
   }
 }
@@ -145,25 +151,30 @@ function printPairSumsThenPrintNums(n) {
 ```js
 //space complexity
 
-const addNums = (n1, n2) => n1 + n2; 
+const addNums = (n1, n2) => n1 + n2; // 1
 
-function createMatrix(max){
-    const matrix = []; 
+function createMatrix(max){ //1
+    const matrix = []; //n*n => n^2
 
     for(let i = 0; i < max; i++){
-        matrix.push([]);
+        matrix.push([]); // n
         for(let j = 0; j < max; j++){
-            matrix[i].push(j);
+            matrix[i].push(j); // n
         }
     }
 
     return matrix;
 };
 
-const transformArr = (arr) => arr.map(x => x*2);
+const transformArr = (arr) => arr.map(x => x*2); // n
 ```
 
 ## Timing Benchmarks Practice (SOLO, 45m)
+
+```js
+console.time
+Date.now
+```
 
 ## Timing Benchmarks Practice Walkthrough
 
