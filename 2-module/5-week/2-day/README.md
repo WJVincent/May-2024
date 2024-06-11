@@ -96,7 +96,7 @@ If we were to run `arr.push(0)` it could look like this.
 00111011 10011010 11001100 00110100 --- 1_000_000_564
 
 216      217      218      219
-00000000 00000000 00000001 00000000 --- 0
+00000000 00000000 00000000 00000000 --- 0
 ```
 
 Due to how expensive it is to reallocate memory for an array, it is common practice for dynamic languages to overallocate space on the creation on the array.
@@ -150,7 +150,11 @@ OR - If either one, or the other
 | 0   | 1   | 1        |
 | 0   | 0   | 0        |
 
-XOR - If one or the other, but not bo01100001
+XOR - If one or the other, but not both
+
+| A   | B   | A ^ B |
+| --- | --- | ----- |
+| 1   | 0   | 1     |
 | 1   | 1   | 0     |
 | 0   | 1   | 1     |
 | 0   | 0   | 0     |
