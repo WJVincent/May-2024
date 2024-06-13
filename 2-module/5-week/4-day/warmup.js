@@ -96,29 +96,24 @@ class LinkedList {
 
 class Stack {
   constructor(){
-    this.data = [];
-    this.length = 0;
+    this.data = new LinkedList();
   }
 
   push(val){
-    this.data.push(val);
-    this.length++;
-    return this.length;
+    this.data.addToHead(val);
+    return this.data.length;
   }
 
   pop(){
-    let popped = this.data.pop();
-    this.length--;
+    const popped = this.data.removeFromHead();
     return popped;
   }
 
   peek(){
-    return this.data[this.length - 1]
+    return this.data.head.val;
   }
 
   printAll(){
-    for(let i = this.length - 1; i >= 0; i--){
-      console.log(this.data[i]);
-    }
+    this.data.printListValues();
   }
 }
