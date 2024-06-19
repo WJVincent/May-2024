@@ -110,7 +110,13 @@ const undirected = {
 
 ---
 
-## Practice: Social Graph (SOLO, 30m)
+## Practice: Social Graph pt1 (SOLO, 30m)
+
+## Walkthrough: Social Graph
+
+---
+
+## Practice: Social Graph pt2 (SOLO, 30m)
 
 ## Walkthrough: Social Graph
 
