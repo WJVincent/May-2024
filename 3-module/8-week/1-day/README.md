@@ -67,6 +67,25 @@ There are other HTTP verbs but these are the most common and the ones you will m
 - PATCH: Update (Partial)
 - DELETE: Delete
 
+```js
+{
+    username: ?,
+    password: ?,
+    firstName: ?,
+    dob: ?,
+}
+
+//idemopotency
+
+PATCH -> {username: 'newUsername'}
+PUT -> {
+    username,
+    password,
+    firstName,
+    dob,
+}
+```
+
 An classic HTML Web Server can only have GET or POST methods due to the limitations of the form element.
 
 ## Reading (SOLO, 20m)
