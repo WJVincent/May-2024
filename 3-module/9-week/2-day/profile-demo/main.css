@@ -1,0 +1,59 @@
+body {
+    background-color: hotpink;
+}
+
+#name-header {
+    font-size: 4em;
+    color: green;
+    width: fit-content;
+    margin: 25px auto;
+    text-decoration: underline;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration-style: wavy;
+}
+
+#header-div {
+    border-bottom: 5px dashed green;
+}
+
+#content-div {
+    background-color: green;
+    height: 70vh;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px 5px brown;
+}
+
+#content-div:hover {
+   animation: spin 5s infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
+#about-header {
+    font-size: 2em;
+    color: #ffe66d;
+    margin-left: 20px;
+}
+
+li {
+    color: white;
+    font-size: 1.25em;
+}
+
+li:hover {
+    color: hotpink;
+}
+
+#clock-div {
+    color: white;
+    font-size: 1.25em;
+}

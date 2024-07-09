@@ -10,11 +10,11 @@
 
 ## Walkthrough: Element Selection 
 
-## Practice: Create/Remove Elements (SOLO, 25m)
+## Practice: Create/Remove Elements (SOLO, 35m)
 
 ## Walkthrough: Create/Remove Elements
 
-## Practice: Element Manipulation Long Practice (SOLO, 1h)
+## Practice: Element Manipulation Long Practice (1h)
 
 ## Walkthrough: Element Manipulation Long Practice 
 
